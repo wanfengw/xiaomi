@@ -1,0 +1,84 @@
+<view class="home">
+  <view class="banner">
+    <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="5000" duration="500">
+      <view wx:for="{{src}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" />
+        </swiper-item>
+      </view>
+    </swiper>
+  </view>
+  <view class="nav">
+    <view class="nav-row" wx:for="{{nav}}" wx:key="{{index}}">
+      <view class="nav-item" wx:for="{{item}}" wx:key="{{index}}">
+        <image src="/img/{{item.img}}" />
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="popular">
+    <view class="title">
+      <text>人气推荐</text>
+    </view>
+    <view class="pp">
+      <view class="row">
+        <image src="https://img14.360buyimg.com/n5/s54x54_jfs/t1/43417/21/13199/83917/5d6743d0E6f4556e3/45820ddc15617c6e.jpg" />
+        <view class="text">
+          <text class="text-title">Redmi Note8Pro</text>
+          <text class="text-direction">
+            6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米
+          </text>
+          <text class="text-price">￥1499.00</text>
+        </view>
+      </view>
+      <view class="row">
+        <view class="line2">
+          <view class="pl">
+            <image src="" />
+            <text class="text">
+              <text class="text-title">Redmi Note8Pro</text>
+              <text class="text-direction">
+                6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米
+              </text>
+              <text class="text-price">￥1499.00</text>
+            </text>
+          </view>
+          <view class="pl">
+            <image src="" />
+            <text class="text">
+              <text class="text-title">Redmi Note8Pro</text>
+              <text class="text-direction">
+                6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米
+              </text>
+              <text class="text-price">￥1499.00</text>
+            </text>
+          </view>
+        </view>
+      </view>
+       <view class="row">
+        <view class="line2">
+          <view class="pl">
+            <image src="" />
+            <text class="text">
+              <text class="text-title">Redmi Note8Pro</text>
+              <text class="text-direction">
+                6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米
+              </text>
+              <text class="text-price">￥1499.00</text>
+            </text>
+          </view>
+          <view class="pl">
+            <image src="" />
+            <text class="text">
+              <text class="text-title">Redmi Note8Pro</text>
+              <text class="text-direction">
+                6400万全场景四摄 液冷游戏芯 4500mAh NFC 18W快充 6GB+128GB 冰翡翠 游戏手机 小米 红米
+              </text>
+              <text class="text-price">￥1499.00</text>
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
